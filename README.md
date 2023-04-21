@@ -15,7 +15,7 @@ Cs 지식 뽀개기🤲
 
 ## 스터디원 
 |이름|github|블로그|
-|---|:---|:---|
+|----|:---|:---|
 |박정재|https://github.com/pjj11005|https://pjj11005.github.io/|
 |박혜원|https://github.com/heywon0909|https://heywon0909.github.io/|
 <br>
