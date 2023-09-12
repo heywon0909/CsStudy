@@ -1,0 +1,22 @@
+function solution(n){
+  let sum = 0;
+  let q = n.split('').map(Number);
+  console.log('q',q)
+  while(q.length){
+    let val = q.pop()
+    console.log('val',val)
+    if(val===0){
+      sum += val;
+    }else{
+      if(sum===0){
+        sum +=val;
+      }else{
+        sum *= val;
+      }
+      
+    }
+  }
+  console.log('sum',sum)
+return sum;  
+}
+solution('02984');
