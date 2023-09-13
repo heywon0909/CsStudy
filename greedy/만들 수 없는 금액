@@ -1,0 +1,13 @@
+// 처음에는 금액 1을 만들 수 있는 지 확인 🔎
+// 동전을 화폐기준으로 정렬한 뒤, 화폐 단위가 작은 동전부터 하나씩 확인하면서, target 변수를 업데이트
+function solution(n,coins){
+ coins = coins.sort((a,b)=>a-b);
+ let target = 1;
+ for(let x of coins){
+    if(target < x) break;
+    target += x;
+
+}
+
+return target;
+}
