@@ -1,0 +1,14 @@
+function solution(n,m,data){
+  let array = Array.from({length:n},()=>0);
+  // 볼링공 개수 카운트
+  for(let x of data) array[x]++;
+  let result = 0;
+  // 각 무게에 대해 처리 
+  for(let i=0;i<m;i++){
+    n -= array[i];
+    result+= array[i] * n;
+  
+  }
+return result;
+}
+solution(8,5,[1,5,4,3,2,4,5,2])
